@@ -1,5 +1,5 @@
 from web3 import Web3, HTTPProvider
-import abi
+from abi import contract_abi
 
 HTTP_URL = 'url'
 web3 = Web3(HTTPProvider(HTTP_URL))
