@@ -1,6 +1,6 @@
 from web3 import Web3, HTTPProvider
 from eth_utils import to_bytes
-import abi
+from abi import contract_abi
 
 
 HTTP_URL = 'url'
